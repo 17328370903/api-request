@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.message {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: green;
+
+    margin-left: -100px;
+    z-index: 999;
+    transition: top 2s linear;
+}
